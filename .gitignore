@@ -1,0 +1,47 @@
+# Sensitive configuration files
+secrets.conf
+
+# Log files
+*.log
+/logs/
+/var/log/auto_backup.log
+
+# Backup directories (if they are stored locally and not needed in the repo)
+pi-cloud-backup/computer/backup/
+/pi-cloud-backup/pi/backup/
+
+# Operating system or editor-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node.js specific files (if applicable)
+node_modules/
+npm-debug.log
+
+# Python specific files (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Temporary or cache files
+*.tmp
+*.cache
+
+# Files for package managers
+package-lock.json
+yarn.lock
+
+# SSH keys or other secure information
+*.pem
+*.key
+*.crt
+
+# IDE specific settings (if using VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+
